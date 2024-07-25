@@ -65,13 +65,13 @@ export default function Intro() {
       >
         <span className="font-bold">Hello</span>, I&apos;m{" "}
         <span className="font-bold">Saranga Karunasundara.</span> I&apos;m a{" "}
-        <span className="font-bold">full-stack developer </span>
+        <span className="font-bold">Full-Stack Software Engineer </span>
         specializing in <span className="underline">
-          innovative solutions
+          Innovative solutions
         </span>{" "}
         for the full development cycle, with a strong focus on{" "}
         <span className="font-bold">modern</span>{" "}
-        <span className="italic">JavaScript & TypeScript</span>.
+        <span className="italic">Java Springboot & MERN Stack</span>.
       </motion.h1>
 
       <motion.div

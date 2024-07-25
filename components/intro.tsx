@@ -33,7 +33,7 @@ export default function Intro() {
           >
             <Image
               src={avatar}
-              alt="Ricardo portrait"
+              alt="Saranga Profile portrait"
               width="292"
               height="292"
               quality="95"
@@ -63,10 +63,15 @@ export default function Intro() {
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
       >
-        <span className="font-bold">Hello</span>, I&apos;m <span className="italic">Marina.</span> I&apos;m a{" "}
+        <span className="font-bold">Hello</span>, I&apos;m{" "}
+        <span className="font-bold">Saranga Karunasundara.</span> I&apos;m a{" "}
         <span className="font-bold">full-stack developer </span>
-        specializing in <span className="underline">innovative solutions</span> for{" "}
-        the full development cycle,{" "} with a strong focus on <span className="font-bold">modern</span> <span className="italic">JavaScript & TypeScript</span>.
+        specializing in <span className="underline">
+          innovative solutions
+        </span>{" "}
+        for the full development cycle, with a strong focus on{" "}
+        <span className="font-bold">modern</span>{" "}
+        <span className="italic">JavaScript & TypeScript</span>.
       </motion.h1>
 
       <motion.div
@@ -91,7 +96,7 @@ export default function Intro() {
 
         <a
           className="group bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10"
-          href="/CV_Torunova_Marina.pdf"
+          href="/CV - Saranga Nayanajith.pdf"
           download
         >
           Download CV{" "}
@@ -101,7 +106,7 @@ export default function Intro() {
         <div className="flex items-center justify-center gap-2 px-0 text-lg font-medium">
           <a
             className="bg-white p-4 text-slate-700 hover:text-slate-950 flex items-center gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
-            href="https://www.linkedin.com/in/marina-torunova/"
+            href="https://www.linkedin.com/in/sarangakarunasundara/"
             target="_blank"
           >
             <BsLinkedin />
@@ -109,7 +114,7 @@ export default function Intro() {
 
           <a
             className="bg-white p-4 text-slate-700 flex items-center gap-2 text-[1.35rem] rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-slate-950 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
-            href="https://github.com/masechkacat"
+            href="https://github.com/saranga97"
             target="_blank"
           >
             <FaGithubSquare />

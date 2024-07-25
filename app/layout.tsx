@@ -11,8 +11,8 @@ import { Toaster } from "react-hot-toast";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: 'MT | Full Stack Developer',
-  description: 'Marina Torunova is a full stack developer based in France. She specializes in building web applications with React, TypeScript, and Node.js.',
+  title: 'SK | Full Stack Developer',
+  description: 'Saranga Karunasundara is a full stack developer based in Sri Lnka. He specializes in building web applications with MERN, Java-Spring, and .NET',
 }
 
 export default function RootLayout({
@@ -30,16 +30,16 @@ export default function RootLayout({
           {JSON.stringify({
             "@context": "http://schema.org",
             "@type": "Person",
-            "name": "Marina Torunova",
-            "url": "https://www.mt-dev.online",
+            "name": "Saranga Karunasundara",
+            "url": "https://sarangak.vercel.app/",
             "jobTitle": "Full Stack Developer",
             "worksFor": {
               "@type": "Organization",
               "name": "Independent"
             },
             "sameAs": [
-              "http://www.linkedin.com/in/marina-torunova",
-              "http://www.github.com/masechkacat"
+              "https://www.linkedin.com/in/sarangakarunasundara/",
+              "https://github.com/saranga97"
             ]
           })}
         </script>

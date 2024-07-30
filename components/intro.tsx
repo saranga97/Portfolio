@@ -6,6 +6,9 @@ import React from "react";
 import { motion } from "framer-motion";
 import Link from "next/link";
 import { BsArrowRight, BsLinkedin } from "react-icons/bs";
+import { FaMedium } from "react-icons/fa6";
+import { FaOrcid } from "react-icons/fa";
+import { SiBuymeacoffee } from "react-icons/si";
 import { HiDownload } from "react-icons/hi";
 import { FaGithubSquare } from "react-icons/fa";
 import { useSectionInView } from "@/lib/hooks";
@@ -119,6 +122,39 @@ export default function Intro() {
           >
             <FaGithubSquare />
           </a>
+
+          <a
+            className="bg-white p-4 text-slate-700 flex items-center gap-2 text-[1.35rem] rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-slate-950 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
+            href="https://github.com/saranga97"
+            target="_blank"
+          >
+            <FaGithubSquare />
+          </a>
+
+          <a
+            className="bg-white p-4 text-slate-700 flex items-center gap-2 text-[1.35rem] rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-slate-950 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
+            href="https://medium.com/@saranga.karunasundara"
+            target="_blank"
+          >
+            <FaMedium />
+          </a>
+
+          <a
+            className="bg-white p-4 text-slate-700 flex items-center gap-2 text-[1.35rem] rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-slate-950 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
+            href="https://orcid.org/0009-0009-6552-1062"
+            target="_blank"
+          >
+            <FaOrcid />
+          </a>
+
+          <a
+            className="bg-white p-4 text-slate-700 flex items-center gap-2 text-[1.35rem] rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-slate-950 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
+            href="https://buymeacoffee.com/saranganayanajith"
+            target="_blank"
+          >
+            <SiBuymeacoffee />
+          </a>
+
         </div>
       </motion.div>
     </section>
